@@ -1,0 +1,94 @@
+* {
+  background-color: #1c233d;
+  color: aliceblue;
+  /* margin: 0;
+  /* padding: 10px 0; */
+  /* box-sizing: border-box; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container .logo {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  color: #e5e5e5;
+}
+
+.container .nav-bar .nav-right {
+  margin: 26px;
+  font-size: 14px;
+}
+
+.container .nav-bar .btn-search {
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  width: 242px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.btn-primary {
+  display: inline-flex;
+  padding: 15px 30px 15px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(
+    55deg,
+    rgba(191, 196, 238, 0.09) 15.52%,
+    #c367e6 58.75%,
+    rgba(190, 206, 239, 0) 100%
+  );
+}
+
+.header-body {
+  display: grid;
+  grid-template-rows: 2fr, 1fr;
+  gap: 90px;
+}
+
+/* .header-body .col-left {
+
+} */
+
+.col-right {
+  width: 404px;
+  height: 494px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #30384d;
+  align-items: center;
+}
+
+.col-right .monkey-title {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.col-right .miniMonkey1 {
+  width: 29px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.col-right .miniMonkey2 {
+  width: 29px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
